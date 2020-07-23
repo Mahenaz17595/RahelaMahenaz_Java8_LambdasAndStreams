@@ -32,7 +32,7 @@ public static void main(String[] args) {
 		ar.add(s);
 	}
 	String s1 = "";
-	System.out.println("The Palindromatic Strings are:");
+	System.out.println("The Strings which are palindromes are:");
 	ArrayList<String> res = IsPalindrome(ar);
 	for(int i = 0;i < res.size();i++){
 		System.out.println(res.get(i));
